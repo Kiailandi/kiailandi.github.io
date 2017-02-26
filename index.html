@@ -2,161 +2,238 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Minimal CSS Template</title>
-  <meta name="description" content="Yet another about me page">
+    <title>Kiailandi</title>
+    <meta name="description" content="Yet another about me page">
 
-  <link href="css\minimal.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2f6f8e1d2a.js"></script>
+    <link href="css\minimal.css" rel="stylesheet">
+    <link href="css\collapsibleList.css" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <a class="logo" href="mailto:Tommaso.Montefusco@hotmail.it?subject=About">E-mail me</a>
-      <nav class="float-right">
-        <ul>
-          <li><a class="logo" href="https://twitter.com/Mont3Bosco">Twitter</a></li>
-          <li><a class="logo" href="https://telegram.me/Kiailandi">Telegram</a></li>
-          <li><a class="logo" href="https://www.linkedin.com/in/tommaso-montefusco-426718115">LinkedIn</a></li>
-          <li><a class="logo" href="https://github.com/Kiailandi">GitHub</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        <header>
+            <a class="logo email" href="mailto:Tommaso.Montefusco@hotmail.it?subject=About"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <nav class="float-right">
+                <ul>
+                    <li><a class="logo twitter" href="https://twitter.com/Mont3Bosco"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="logo telegram" href="https://telegram.me/Kiailandi"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    <li><a class="logo linkedin" href="https://www.linkedin.com/in/tommaso-montefusco-426718115"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a class="logo github" href="https://github.com/Kiailandi"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a class="logo pdf" href="./CV.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="row">
-      <div class="col-4 float-left">
-        <img class="center" src="img/img.jpg" />
-      </div>
-      <div class="col-8 float-right">
-        <h1>Hi, I'm Tommaso.</h1>
-        <h2>Yet another web designer / developer wannabe.</h2>
-        <p class="italic">This is a work in progress, as everything in my life, but I needed to start somewhere, right?</p>
-        <p class="bold">I recently started a <a href="./blog/">blog</a> about things I learn everyday. Knowledge is a gift worth sharing.</p>
-      </div>
+        <div class="row">
+            <div class="col-4 float-left">
+                <img class="center pic" src="img/img.jpg" />
+            </div>
+            <div class="col-8 float-right">
+                <h1>Hi, I'm Tommaso "Kiailandi" Montefusco.</h1>
+                <h2>Yet another front-end / "full-stack" developer wannabe.</h2>
+                <p class="italic">This is a work in progress, as everything in my life, but I needed to start somewhere. <b>Critique is more than welcome!</b> You can contact me via telegram, email or twitter DM.</p>
+                <p class="bold">I recently started a <a href="./blog/">blog</a> where I talk about things I learn everyday and sometimes express my opinion on different topics.</p>
+            </div>
+        </div>
+        <div class="row exp">
+            <div class="col-3">
+                <h3>Things I have long-term experience in<sup>1</sup></h3>
+                <ul>
+                    <li>Basic HTML</li>
+                    <li>Basic CSS</li>
+                    <li>Basic JavaScript</li>
+                    <li>Basic Git</li>
+                    <li>Searching on Google</li>
+                    <li>Making things work</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h3>Things I'm trying to learn</h3>
+                <ul class="collapsibleList">
+                    <li>HTML5*</li>
+                    <li>CSS3*</li>
+                    <li>JavaScript*
+                        <ul>
+                            <li>ES6 features</li>
+                        </ul>
+                    </li>
+                    <li>MEAN stack
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Express.js</li>
+                            <li>Angular 1</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </li>
+                    <li>Git*</li>
+                    <li>Hexo*</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h3>Things I'd like to know better / explore</h3>
+                <ul class="collapsibleList">
+                    <li>Python*
+                        <ul>
+                            <li>Plain Python*</li>
+                            <li>Django*</li>
+                            <li>Flask*</li>
+                        </ul>
+                    </li>
+                    <li>Building / Workflow tools
+                        <ul>
+                            <li>Grunt</li>
+                            <li>Gulp</li>
+                            <li>Webpack</li>
+                            <li>Bower</li>
+                            <li>Yeoman</li>
+                        </ul>
+                    </li>
+                    <li>Bootstrap*
+                        <ul>
+                            <li>Bootstrap 3*</li>
+                            <li>Bootstrap 4</li>
+                        </ul>
+                    </li>
+                    <li>Pre / Post processing CSS
+                        <ul>
+                            <li>SASS</li>
+                            <li>PostCSS</li>
+                            <li>Stylus</li>
+                        </ul>
+                    </li>
+                        <li>Design / Photo editing tools
+                            <ul>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Affinity Photo</li>
+                                <li>Affinity Designer</li>
+                            </ul>
+                        </li>
+                        <li>D3.js*</li>
+                        <li>Pug</li>
+                        <li>Testing
+                            <ul>
+                                <li>Jasmine</li>
+                                <li>Mocha</li>
+                            </ul>
+                        </li>
+                        <li>Redis*</li>
+                        <li>JS Frameworks
+                            <ul>
+                                <li>Angular 2</li>
+                                <li>React</li>
+                                <li>Vue</li>
+                            </ul>
+                        </li>
+                        <li>Docker</li>
+                        <li>CI
+                            <ul>
+                                <li>Travis CI</li>
+                            </ul>
+                        </li>
+                        <li>TDD</li>
+                        <li>Functional programming
+                            <ul>
+                                <li>Haskell</li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h3>Things I stumbled upon</h3>
+                <ul class="collapsibleList">
+                    <li>C like*
+                      <ul>
+                        <li>C*</li>
+                        <li>C++</li>
+                        <li>C#*</li>
+                      </ul>
+                    </li>
+                    <li>SQL*
+                      <ul>
+                        <li>MySQL*</li>
+                        <li>PostgreSQL*</li>
+                      </ul>
+                    </li>
+                    <li>PHP*</li>
+                    <li>Ocaml</li>
+                    <li>Java*</li>
+                    <li>Java Android*</li>
+                    <li>Meteor.js</li>
+                    <li>JQuery*</li>
+                    <li>Less</li>
+                    <li>Firebase*</li>
+                    <li>Ruby
+                      <ul>
+                        <li>Plain Ruby</li>
+                        <li>RubyOnRails</li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <p class="italic center">* Things I used in a "real" project. [Powered by StackOverflow]</p>
+            <p class="italic"><sup>1</sup>Theese are the things I can handle without (or with minimal) external help in a working environment. I'd be more than happy to work with anything listed in any column, even if I'm far less interested in the last column.</p>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <h3>Places I'd like to visit / live and / or work in</h3>
+                <ul>
+                    <li>Trento<sup>2</sup></li>
+                    <li>Roncade<sup>3</sup> [H-Farm]</li>
+                    <li>Amsterdam<sup>4</sup></li>
+                    <li>Dublin [Riot Games]</li>
+                    <li>S.Francisco</li>
+                    <li>Miami</li>
+                    <li>NYC [Recurse Center]</li>
+                    <li>Tallinn</li>
+                    <li>Montreal</li>
+                    <li>Berlin [Would like to learn German]</li>
+                    <li>Paris [42 school - Would like to learn French]</li>
+                </ul>
+            </div>
+            <div class="col-5">
+                <h3>Things that would make a great present for me</h3>
+                <ul>
+                    <li>Knowledge<sup>5</sup></li>
+                    <li>Food</li>
+                    <li>Hackathons invites</li>
+                    <li>Tech meetings/events tickets</li>
+                    <li>Laptop stickers</li>
+                    <li>Beard products</li>
+                    <li>(e)Books<sup>6</sup></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <p class="italic"><sup>2</sup> You can find me here ATM.</p>
+                <p class="italic"><sup>3</sup> Could do a master in web dev here in 2018. [Need quite a lot of money]
+                    <p class="italic"><sup>4</sup> This should be my next step. [ETA September 2019]
+            </div>
+            <div class="col-5">
+                <p class="italic"><sup>5</sup> I'm addicted to learning new things. Knowledge is power.</p>
+                <p class="italic"><sup>6</sup> I love paper books, but with over 500 books epub is king.</p>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-3">
-        <h3>Things I know</h3>
-        <ul>
-          <li>That I know (almost) nothing</li>
-          <li>How to make coffee*</li>
-          <li>How to Google stuff*</li>
-          <li>That time is invaluable</li>
-          <li>How to make things work with what I have</li>
-        </ul>
-      </div>
-      <div class="col-3">
-        <h3>Things I stumbled upon</h3>
-        <ul>
-          <li>C*</li>
-          <li>C++</li>
-          <li>C#*</li>
-          <li>MySQL*</li>
-          <li>PostgreSQL*</li>
-          <li>PHP*</li>
-          <li>Ocaml</li>
-          <li>Java*</li>
-          <li>Flask*</li>
-          <li>Less</li>
-        </ul>
-      </div>
-      <div class="col-3">
-        <h3>Things I'm working on</h3>
-        <ul>
-          <li>HTML5*</li>
-          <li>CSS3*</li>
-          <li>JavaScript*</li>
-          <li>Angular.js</li>
-          <li>Sass</li>
-          <li>Grunt</li>
-          <li>Bower</li>
-          <li>Yeoman</li>
-          <li>Python*</li>
-          <li>Photoshop</li>
-          <li>Bootstrap*</li>
-          <li>Hexo*</li>
-        </ul>
-      </div>
-      <div class="col-3">
-        <h3>Things I'd like to learn</h3>
-        <ul>
-          <li>How to write (good) tests</li>
-          <li>ES6</li>
-          <li>Node.js</li>
-          <li>Gulp</li>
-          <li>Webpack</li>
-          <li>JSHint</li>
-          <li>Stylus</li>
-          <li>Postcss</li>
-          <li>Express.js</li>
-          <li>D3.js*</li>
-          <li>Jasmine</li>
-          <li>Django*</li>
-          <li>JQuery*</li>
-          <li>Redis*</li>
-          <li>PostCSS</li>
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>MongoDB</li>
-          <li>Git*</li>
-          <li>Illustrator</li>
-          <li>Meteor.js</li>
-          <li>Docker</li>
-          <li>Travis CI</li>
-          <li>Haskell</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <p class="italic center">* Things I used in a "real" project [Powered by StackOverflow]</p>
-    </div>
-    <div class="row">
-      <div class="col-7">
-        <h3>Places I'd like to visit and / or work in</h3>
-        <ul>
-          <li>Trento**</li>
-          <li>Roncade [H-Farm]</li>
-          <li>Dublin [Riot Games]</li>
-          <li>Amsterdam</li>
-          <li>S.Francisco</li>
-          <li>Miami</li>
-          <li>NYC [Recurse Center]</li>
-          <li>Tallinn</li>
-          <li>Montreal</li>
-          <li>Berlin [Would like to learn German]</li>
-          <li>Paris [42 school - Would like to learn French]</li>
-        </ul>
-      </div>
-      <div class="col-5">
-        <h3>Things you can bribe me with</h3>
-        <ul>
-          <li>Knowledge***</li>
-          <li>Food</li>
-          <li>Hackathons invites</li>
-          <li>Tech meetings/events tickets</li>
-          <li>Laptop stickers</li>
-          <li>Beard products</li>
-          <li>Books</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-7">
-        <p class="italic">** You can find me here ATM</p>
-      </div>
-      <div class="col-5">
-        <p class="italic">***I consider it more valuable than money</p>
-      </div>
-    </div>
-    </div>
-    <footer>
-      [Last update 14/06/2016]
-      <!-- Link not required, but appreciated. --><a class="float-right" href="http://minimalcss.com">Credit to: Minimal CSS</a>
+    <footer class="center">
+        [Last update 26/02/2017]
+        <a class="float-left" href="http://bettermotherfuckingwebsite.com/">Inspired by THIS concept</a>
+        <a class="float-right" href="http://minimalcss.com/">Credit to Minimal CSS</a>
     </footer>
     <!-- footer -->
-  </div>
+    </div>
+    <script type="text/javascript" src="js/collapsibleLists.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,25 @@
+.exp li{
+  /*list-style: disc;*/
+  list-style-position: inside;
+  list-style-image:url('../img/collapsibleList/button-nosub.png');
+  cursor:auto;
+}
+li.collapsibleListClosed{
+  list-style-position: inside;
+  list-style-image:url('../img/collapsibleList/button-closed.png');
+  cursor:pointer;
+}
+li.collapsibleListOpen{
+  list-style-position: inside;
+  list-style-image:url('../img/collapsibleList/button.png');
+  cursor:pointer;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li.collapsibleListOpen li{
+  font-style: normal;
+  font-weight: normal;
+  list-style-position: inside;
+  list-style-image:url('../img/collapsibleList/button-sub.png');
+}

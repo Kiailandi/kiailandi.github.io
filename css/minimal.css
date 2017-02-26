@@ -56,14 +56,9 @@ h6 { font-size: 12px; line-height: 20px; margin-bottom: 20px; }
 h1,h2,h3,h4,h5,h6 { color: #333; }
 
 p { margin-bottom: 20px; }
-.italic {font-style: italic;}
-.bold {font-weight: bold;}
 
-.center {text-align: center;}
 .float-left     { float: left; }
 .float-right    { float: right; }
-.float-center		{ float: center; }
-img {width: 100%;}
 img.float-left  { float: left; margin: 0 20px 20px 0; }
 img.float-right { float: right; margin: 0 0 20px 20px; }
 img.center 		{ margin: 0 auto; display: block; }

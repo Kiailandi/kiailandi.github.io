@@ -12,7 +12,9 @@
     h1 { line-height: 120%; text-align: center; margin-top: 10px;}
     h2 { line-height: 130%; text-align: center;}
     footer > a {display: none;}
+    .list > li {line-height: 100%;}
 }
+
 a.logo{text-decoration: none;}
 .email:after{
   content: " Email me"
@@ -41,4 +43,8 @@ a.logo{text-decoration: none;}
 footer{
   padding-right: 5px;
   padding-left: 5px;
+}
+
+.list > li {
+  line-height: 200%;
 }
